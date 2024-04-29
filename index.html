@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayas Alumni Asssociation</title>
+
+    <!--- google font link -->
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+    <!-- Custom css link -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Blog.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!-- Custom Js link -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="js/slider.js"></script>
+  <script type="module" src="js/contact.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary text-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://cdn.pixabay.com/photo/2016/02/23/15/58/earth-1217979_640.png" alt="img" height="40px"><span>Prays Alumni Association</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- Home Page -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+
+              <!-- About Page -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Board of Director</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">President</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Constitution</a></li>
+                </ul>
+              </li>
+
+              <!-- Alumni Page -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Alumni
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Chapters</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Alumni Chapters</a></li>
+                </ul>
+              </li>
+
+              <!-- Reunion Page -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Reunion
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Reunion 2023</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Past Reunions</a></li>
+                </ul>
+              </li>
+
+              <!-- Awards -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Awards</a>
+              </li>
+
+              <!-- Jobs -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Jobs</a>
+              </li>
+
+              <!-- Memberships -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Membership
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Benifits</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Life Time Membership Form</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/registration.html"> Membership Form For Alumni</a></li>
+                </ul>
+              </li>
+
+              <!-- Team Members -->
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Team
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Team Member 1</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Team Member 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"> Team Member 3</a></li>
+                </ul>
+              </li>
+
+              
+            </ul>
+            <form id="form" class="d-flex" role="search" >
+              <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <section class="main">
+
+            <div class="content">
+            <div class="text">
+                <h2>Welcome back! to Prayas Alumni Association<br>Feeling <span>Good?</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, adipisci obcaecati! Accusamus fugiat obcaecati nesciunt maiores rerum placeat amet voluptatibus cumque soluta similique saepe, assumenda eos dolorum autem. Iusto enim accusamus optio cupiditate earum ipsam!</p>
+                <a href="#" class="btn">Know More</a>
+            </div>
+            <div class="slider">
+                <div class="slides active">
+                <img src="https://cdn.pixabay.com/photo/2017/01/16/20/22/bubbles-1985153_640.png">
+                </div>
+                <div class="slides">
+                <img src="https://cdn.pixabay.com/photo/2017/01/10/04/09/bubbles-1968272_640.png">
+                </div>
+                <div class="slides">
+                <img src="https://cdn.pixabay.com/photo/2017/01/16/20/21/bubbles-1985147_640.png">
+                </div>
+                <div class="slides">
+                <img src="https://cdn.pixabay.com/photo/2017/01/10/04/09/bubbles-1968275_640.png">
+                </div>
+            </div>
+            </div>
+    
+            <div class="footer">
+            <ul class="sci">
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+            <div class="prevNext">
+                <p>Always Happy</p>
+                <span class="prev"><ion-icon name="chevron-back-outline"></ion-icon></span>
+                <span class="next"><ion-icon name="chevron-forward-outline"></ion-icon></span>
+            </div>
+            </div>
+      </section>
+
+      <section class="hero">
+
+        <div class="main1">
+
+             <!-- INFORMATION SECTION  -->
+            <h2>Alumni Association</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, magni? Id iure natus veniam sit, dicta hic ad error ab laborum dolores quo doloremque, officiis itaque magnam dolore. Ipsam, molestiae iusto. Eius veritatis laborum enim unde accusantium harum, eveniet at omnis iste consequuntur ab eum quisquam veniam rem, incidunt corporis quaerat excepturi facilis ipsum magni? Eius, beatae consequatur in molestias delectus voluptas, voluptates rem consequuntur nostrum dolores quod temporibus officiis soluta voluptate corrupti molestiae a ipsam quaerat deleniti odit magnam. Cupiditate ea placeat non, impedit quis reiciendis officia ullam ratione cum quaerat asperiores corporis harum rem temporibus necessitatibus odit beatae. Voluptate expedita rerum a ut distinctio ea iure esse! Rerum possimus officia vitae minima, temporibus alias iure voluptatum deleniti amet hic porro sit doloribus itaque ea provident, ipsum blanditiis veniam, explicabo distinctio non reprehenderit corrupti vel repellat iste. Reiciendis dolor rerum in voluptatum quaerat repudiandae totam cumque aliquid odit. Alias eius, eaque excepturi quam necessitatibus quae doloribus hic eligendi eveniet facilis cumque, ut libero explicabo neque similique ipsa voluptatem sequi? Et quae incidunt nam officia dolorem tempore ipsam aperiam voluptatem aut maxime vitae quibusdam, soluta tempora deserunt laborum iure vel porro labore illo necessitatibus explicabo. Eveniet voluptatum rerum dolorem inventore!</p>
+            <img src="https://cdn.pixabay.com/photo/2017/01/10/04/09/bubbles-1968275_640.png" alt="img">
+        </div>
+        <div class="main2">
+
+            <div class="container">
+    
+                <!-- BLOG SECTION -->
+    
+    
+              <div class="blog">
+    
+                <h2 class="h2">Latest Post</h2>
+    
+                <!-- first blog section -->
+      
+                <div class="blog-card-group">
+      
+                  <div class="blog-card">
+      
+                    <div class="blog-card-banner">
+                      <img src="https://cdn.pixabay.com/photo/2018/05/04/20/01/website-3374825_640.jpg" alt="Building microservices with Dropwizard, MongoDB & Docker"
+                         class="blog-banner-img">
+                    </div>
+      
+                    <div class="blog-content-wrapper">
+      
+                      <button class="blog-topic text-tiny">Welcome</button>
+    
+                      <h3>
+                        <a href="#" class="h3">
+                          Welcome to our website & this is our first blog
+                        </a>
+                      </h3>
+      
+                      <p class="blog-text">
+                        The primary objective of this team is to reunite alumni from various graduating classes, providing a platform for networking, reminiscing about shared experiences, and celebrating our collective achievements]. It's an opportunity to strengthen bonds, exchange stories, and forge new connections that can be beneficial both personally and professionally.
+                      </p>
+      
+                      <div class="wrapper-flex">
+      
+                        <div class="profile-wrapper">
+                          <img src="https://cdn.pixabay.com/photo/2021/03/27/06/31/code-6127616_640.png" alt="Julia Walker" width="50">
+                        </div>
+      
+                        <div class="wrapper">
+                          <a href="#" class="h4">Hem</a>
+      
+                          <p class="text-sm">
+                            <time datetime="2022-01-17">Jan 17, 2022</time>
+                            <span class="separator"></span>
+                            <ion-icon name="time-outline"></ion-icon>
+                            <time datetime="PT3M">3 min</time>
+                          </p>
+                        </div>
+      
+                      </div>
+      
+                    </div>
+              </div>
+    
+              <!-- second blog section -->
+      
+                <div class="blog-card-group">
+        
+                    <div class="blog-card">
+        
+                    <div class="blog-card-banner">
+                        <img src="https://cdn.pixabay.com/photo/2018/05/04/20/01/website-3374825_640.jpg" alt="Building microservices with Dropwizard, MongoDB & Docker"
+                        class="blog-banner-img">
+                    </div>
+        
+                    <div class="blog-content-wrapper">
+        
+                        <button class="blog-topic text-tiny">Welcome</button>
+        
+                        <h3>
+                        <a href="#" class="h3">
+                            Welcome to our website & this is our first blog
+                        </a>
+                        </h3>
+        
+                        <p class="blog-text">
+                        The primary objective of this team is to reunite alumni from various graduating classes, providing a platform for networking, reminiscing about shared experiences, and celebrating our collective achievements]. It's an opportunity to strengthen bonds, exchange stories, and forge new connections that can be beneficial both personally and professionally.
+                        </p>
+        
+                        <div class="wrapper-flex">
+        
+                        <div class="profile-wrapper">
+                            <img src="https://cdn.pixabay.com/photo/2021/03/27/06/31/code-6127616_640.png" alt="Julia Walker" width="50">
+                        </div>
+        
+                        <div class="wrapper">
+                            <a href="#" class="h4">Hem</a>
+        
+                            <p class="text-sm">
+                            <time datetime="2022-01-17">Jan 17, 2022</time>
+                            <span class="separator"></span>
+                            <ion-icon name="time-outline"></ion-icon>
+                            <time datetime="PT3M">3 min</time>
+                            </p>
+                        </div>
+        
+                        </div>
+        
+                    </div>
+                    <div class="right">
+
+                    </div>
+              </div>
+    
+    
+            </div>
+            <button class="btn load-more">Load More</button>
+          
+        </div>
+    
+      </section>
+
+
+      <!--- #CONTACT -->
+<!-- 
+        - #CONTACT
+      -->
+
+      <section class="contact" id="contact">
+
+        <div class="contact-content section-content">
+
+          <h1 class="section-subtitle">Contact</h1>
+
+          <h3 class="h3 section-title">Let's talk abuot everything!</h3>
+
+          <p class="section-text">
+            Get in touch and let us know how we can help you. Fill out the form and will be in touch as soon as possible.
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Address:</h3>
+
+                <address class="contact-info">
+                  B319, Hall 1, IIT Kanpur, 208016
+                </address>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Phone:</h3>
+
+                <a href="tel:6264964788" class="contact-info">(+91) 123 456 7890</a>
+
+                <a href="tel:6264964788" class="contact-info">(+91) 123 456 7890</a>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Email:</h3>
+
+                <a href="mailto:hemk1017.com" class="contact-info">hemk1017@gmail.com</a>
+
+                <a href="mailto:support@hem.com" class="contact-info">support@hem.com</a>
+              </div>
+
+            </li>
+
+            <li>
+              <ul class="contac-social-list">
+
+                <li>
+                  <a href="https://www.facebook.com/hem.kumar.39108297" class="contact-social-link">
+                    <div class="tooltip">Facebook</div>
+
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://twitter.com/hemkuma00872546" class="contact-social-link">
+                    <div class="tooltip">Twitter</div>
+
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/in/hem-kumar-40a467223/" class="contact-social-link">
+                    <div class="tooltip">Linkedin</div>
+
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <form method="post" class="contact-form" id="contact" href="https://formsubmit.co/el/xofopi" method="POST">
+
+          <div class="form-wrapper">
+
+            <label for="name" class="form-label">Name</label>
+
+            <div class="input-wrapper">
+
+              <input type="text" name="name" id="name" required placeholder="e.g Hemu" class="input-field">
+
+              <ion-icon name="person-circle"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="email" class="form-label">Email</label>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email" id="email" required placeholder="e.g hem123@mail.com"
+                class="input-field">
+
+              <ion-icon name="mail"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="phone" class="form-label">Phone</label>
+
+            <div class="input-wrapper">
+
+              <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+
+              <ion-icon name="call"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="message" class="form-label">Message</label>
+
+            <div class="input-wrapper">
+
+              <textarea name="message" id="message" required placeholder="Write message..."
+                class="input-field"></textarea>
+
+              <ion-icon name="chatbubbles"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary" id="submit">submit</button>
+
+        </form>
+
+      </section>
+
+
+      <!-- FOOTER -->
+
+      <footer>
+
+        <div class="container">
+    
+          <div class="wrapper">
+    
+            <a href="#" class="footer-logo">
+              <!-- <img src="https://cdn.pixabay.com/photo/2014/12/28/13/20/wordpress-581849_640.jpg" alt="SimpleBlog Logo" width="150" class="logo-light">
+              <img src="https://cdn.pixabay.com/photo/2015/05/08/14/47/seo-758264_640.jpg" alt="SimpleBlog Logo" width="150" class="logo-dark"> -->
+              
+            </a>
+    
+            <p class="footer-text">
+              Prayas Alumni Association 
+            </p>
+    
+          </div>
+    
+          <div class="wrapper">
+    
+            <p class="footer-title">Contact us</p>
+    
+            <ul>
+    
+              <li>
+                <br>Alumni Association office
+              </li>
+    
+              <li>
+                <br>Permanent Address
+              </li>
+              
+
+              <li>
+                <br>Email:info@alumni.com
+              </li>
+
+              <li>
+                <br>Phone:+1234567890
+              </li>
+    
+            </ul>
+    
+          </div>
+    
+          <div class="wrapper">
+    
+            <p class="footer-title">Know More</p>
+    
+            <ul>
+    
+              <li>
+                <a href="#" class="footer-link">Privacy Notice</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Cookie Policy</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Terms Of Use</a>
+              </li>
+    
+            </ul>
+    
+          </div>
+    
+        </div>
+        <hr>
+        <p class="copyright">
+          &copy; Copyright 2024 <a href="#">All Rights Reserved.</a>
+        </p>
+    
+      </footer>
+    
+     
+
+<!--   JavaScript Code Start From Here -->
+
+       <script>
+      
+    
+        //slider
+        const slides = document.querySelectorAll('.slides');
+        const prev = document.querySelector('.prev');
+        const next = document.querySelector('.next');
+    
+        i = 0;
+        
+        function ActiveSlide(n){
+          for(slide of slides)
+          slide.classList.remove('active');
+          slides[n].classList.add('active');
+        }
+    
+        // function for next btn
+        next.addEventListener('click', function(){
+          if(i == slides.length - 1){
+            i = 0;
+            ActiveSlide(i);
+          }
+          else 
+          {
+            i++;
+            ActiveSlide(i);
+          }
+        });
+    
+         // function for prev btn
+         prev.addEventListener('click', function(){
+          if(i == 0){
+            i = slides.length - 1;
+            ActiveSlide(i);
+          }
+          else 
+          {
+            i--;
+            ActiveSlide(i);
+          }
+        });
+      </script>
+</body>
+</html>
